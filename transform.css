@@ -1,0 +1,17 @@
+
+
+button{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 20px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+button:focus{
+    transform:skewX(400deg);
+    
+}
