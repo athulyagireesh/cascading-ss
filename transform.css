@@ -13,5 +13,8 @@ button{
 
 button:focus{
     transform:skewX(400deg);
-    
+     transform:scaleX(4);
+      transform:rotate(90deg);
+       transform:translate(30px);
+
 }

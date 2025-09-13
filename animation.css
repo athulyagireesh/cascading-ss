@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+button{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 20px;
+    position:relative;
+    transition-property: width;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+}
+
+@keyframes colorchange{
+/* from{
+    background-color: aquamarine;
+}
+to{
+    background-color: brown;
+}
+} */
+
+0%
+{
+  top:200px;
+  left:0%;
+}
+25%
+{
+    top:200%;
+    left:0%;
+}
+50%{
+    top:0%;
+    left:200%;
+}
+75%{
+    top:200%;
+    left:0%px;
+}
+100%{
+    top:200px;
+    left:200%;
+}
+}

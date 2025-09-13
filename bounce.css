@@ -1,0 +1,53 @@
+
+
+body{
+    display:flex;
+    justify-content: center;
+}
+
+
+.container{
+    width:800px;
+    height:700px;
+    border-bottom: 10px solid chocolate;
+}
+
+.ball{
+    width: 100px;
+    height: 150px;
+    background-color: aquamarine;
+    color: black;
+    position:sticky;
+    border-radius: 100%;
+    animation-name:colorchange;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange
+{
+0%{
+    top:0px;
+}
+50%{
+    top:650px;
+    background-color: blueviolet;
+}
+55%{
+    background-color: chartreuse;
+}
+100%{
+    top:0%;
+    background-color: blue;
+}
+}
+
+
+
+
+
+
+
+
