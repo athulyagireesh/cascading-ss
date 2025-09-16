@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0%;
+}
+
+.container{
+    height: 500px;
+    width: 1000px;
+    background-color: blue;
+}
+
+h1{
+    color: black;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        background-color: blueviolet;
+        color: burlywood;
+    }
+}
+
+@media screen and (max-width:750px){
+    .container{
+        background-color:chartreuse;
+        color:cornsilk;
+    }
+}
